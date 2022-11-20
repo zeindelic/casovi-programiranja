@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  border-bottom: solid lightgray 2px;
+  position: sticky;
+}
+
+.header input {
+  height: 40px;
+  margin-left: 50px;
+  border: solid lightgray 2px;
+  border-radius: 25px;
+}
+.fort {
+  display: flex;
+  margin-left: 50px;
+  align-items: center;
+}
+.dot {
+  height: 20px;
+  width: 20px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+.profile {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-right: 10px;
+}
+img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.eng {
+  color: gray;
+}
+/* this is the main portion below */
+.below {
+  display: flex;
+  height: 100vh;
+  margin: 0;
+}
+.bar {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  border-right: solid lightgray 2px;
+}
+.big {
+  display: flex;
+  flex: 6;
+}
+.main{
+width: 100%;
+}
+ul{
+text-decoration: none;
+list-style-type: none;
+padding-left: 0;
+}
+.bar li{
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 80%;
+    color: gray;
+    padding-left: 50px;
+    transition-duration: 300ms;
+}
+.bar a{
+    text-decoration: 0;
+    color: gray;
+    font-weight: bold;
+}
+.bar p{
+    color: gray;
+}
+.list{
+   width: 100%;
+}
+.bar li:hover{
+    background-color: lightgray;
+}
+p{
+    margin-left: 10px;
+}
