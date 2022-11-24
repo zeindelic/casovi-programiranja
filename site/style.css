@@ -1,4 +1,4 @@
-body {
+* {
   margin: 0;
   padding: 0;
 }
@@ -16,7 +16,10 @@ body {
   margin-left: 50px;
   border: solid lightgray 2px;
   border-radius: 25px;
+  width: 200px;
+  padding-left: 10px;
 }
+
 .fort {
   display: flex;
   margin-left: 50px;
@@ -60,38 +63,74 @@ img {
   display: flex;
   flex: 6;
 }
-.main{
-width: 100%;
+.main {
+  width: 100%;
+  margin-top: 15px;
 }
-ul{
-text-decoration: none;
-list-style-type: none;
-padding-left: 0;
+ul {
+  text-decoration: none;
+  list-style-type: none;
+  padding-left: 0;
 }
-.bar li{
-    display: flex;
-    align-items: center;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    width: 80%;
-    color: gray;
-    padding-left: 50px;
-    transition-duration: 300ms;
+.bar .li1 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  color: gray;
+  transition-duration: 300ms;
+  height: 50px;
 }
-.bar a{
-    text-decoration: 0;
-    color: gray;
-    font-weight: bold;
+.bar a {
+  text-decoration: 0;
+  color: gray;
+  font-weight: bold;
 }
-.bar p{
-    color: gray;
+.p1 {
+  color: gray;
+  margin-left: 10px;
 }
-.list{
-   width: 100%;
+.list {
+  margin-top: 15px;
+  width: 100%;
 }
-.bar li:hover{
-    background-color: lightgray;
+.bar li:hover {
+  background-color: lightgray;
 }
-p{
-    margin-left: 10px;
+.p2 {
+  margin: 0 0 0 40px;
+}
+
+/* this is the start of the code for the card side */
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+  height: 130px;
+  border: transparent;
+  border-radius: 15px;
+  -webkit-box-shadow: 4px 5px -6px 3px lightgray; 
+  -moz-box-shadow: 4px 5px -6px 3px lightgray; 
+  box-shadow: 2px 5px 5px 2px lightgray; 
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  width: 100px;
+  height: 130px;
+  margin-left: 30px;
+  color: gray;
+  font-weight: bold;
+}
+.this_link {
+  text-decoration: none;
+  color: gray;
+}
+.fifty{
+  margin-right: 25px;
+  color: gray;
 }
