@@ -80,4 +80,23 @@ button:hover{
     color: gray;
 
 }
+@media screen and (max-width: 600px){
+    .description{
+        display: none;
+    }
+    .card{
+        border-radius: 0px;
+        width: 600px;
+        height: 100px;
+    }
+    .img{
+        height: 90px;
+        width: 190px;
+        border-radius: 0%;
+
+    }
+
+
+    
+}
 
